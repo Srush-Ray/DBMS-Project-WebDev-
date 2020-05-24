@@ -1,0 +1,179 @@
+<html>
+<head>
+    <title>Admin</title>
+    <link rel="stylesheet" href="assets/css/admin_design.css">
+    <link  href="http://fonts.googleapis.com/css?
+           family=Reenie+Beanie:regular"rel="stylesheet"
+           type="text/css">
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+           <link rel="stylesheet" type="text/css" href="assets/css/project.css">
+           <link rel="stylesheet" href="assets/bootstrap/bootstrap-4.3.1">
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           <link rel="stylesheet" href="assets/bootstrap/bootstrap-4.3.1-dist">
+           <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+           <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
+           <script type="text/javascript" src="assets/js/project.js"></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+  <body>
+        <div class="wrapper">
+                <div class="Admin">
+                    <h2>Admin</h2>
+                    <ul>
+
+                        <li><a href="#11"><i class="fas fa-user"></i>Profile</a></li>
+                        <!-- <li><a href="#"><i class="fas fa-address-card"></i>About</a></li> -->
+                        <li><a href="#12"><i class="fas fa-project-diagram"></i>Add Admin</a></li>
+                        <li><a href="#13"><i class="fas fa-blog"></i>Add Project</a></li>
+                        <!-- <li><a href="#4"><i class="fas fa-address-book"></i>Project List</a></li> -->
+                        <!-- <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li> -->
+
+                    </ul>
+
+                </div>
+
+        </div>
+
+        <div class="sidebar-right">
+                <div id="11" style="min-height:1000px;background:lightblue">
+                   <div class="adminprofile_box">
+                        <section>
+                                <img src="avatar1.jpg" class="avatar1">
+                        </section>
+                        <div class="verticalline"></div>
+
+                        <div class="adminprofile-text">
+                                <form>
+                                    <label for="name">Name:</label><br>
+                                    <input type="text" name="name" id="name"><br>
+                  
+                                    <!-- <label for="year">Year:</label><br>
+                                    <input type="text" name="name" id="Year"><br> -->
+
+                                    <label for="ID">ID:</label><br>
+                                    <input type="text" name="ID" id="ID"><br>
+                  
+                                    <label for="Department">Department:</label><br>
+                                    <input type="text" name="Department" id="Department"><br>
+                  
+                                    <!-- <label for="Hobbies">Hobbies:</label><br>
+                                    <input type="text" name="Hobbies" id="Hobbies"><br> -->
+                  
+                                    <label for="Domain">Domains of interest:</label><br>
+                                    <input type="text" name="Domain" id="Domain"><br>
+                                </form>
+                                <!-- <div class="button_admin">
+                                        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='addprofile.html'">Add Admin</button>
+                                </div> -->
+                            </div>
+                   </div>
+                </div>
+
+                
+                <div id="12" style="min-height:1000px;background:white" >
+                     <div class="addadmin">
+                         <p>Add Admin</p>
+                         
+                       <div class="row">
+                           <div class="column">
+                             <div class="col1-text"> 
+                                    <form>
+                                        <label for="Username">Name:</label><br>
+                                        <input type="text" name="username" id="username"><br>
+                      
+                                        <!-- <label for="year">Year:</label><br>
+                                        <input type="text" name="name" id="Year"><br> -->
+    
+                                        <label for="ID">ID:</label><br>
+                                        <input type="text" name="ID" id="ID"><br>
+                      
+                                        <label for="Password">Password:</label><br>
+                                        <input type="password" name="Password" id="Password"><br>
+                      
+                                        <!-- <label for="Hobbies">Hobbies:</label><br>
+                                        <input type="text" name="Hobbies" id="Hobbies"><br> -->
+                      
+                                        <label for="Confirm Password">Confirm Password:</label><br>
+                                        <input type="password" name="Confirm Password" id="Confirm Password"><br>
+                                    </form>
+                                    <div class="button_admin1">
+                                            <button type="button" class="btn btn-outline-dark" onclick="window.location.href='addprofile.html'">Add Admin</button>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="verticalline1"></div>
+                            
+                            <div class="column" >
+                                    <div class="col2-text">
+                                            <form>
+                                                <label for="Username">Name:</label><br>
+                                                <input type="text" name="username" id="username"><br>
+                              
+                                                <!-- <label for="year">Year:</label><br>
+                                                <input type="text" name="name" id="Year"><br> -->
+            
+                                                <label for="ID">ID:</label><br>
+                                                <input type="text" name="ID" id="ID"><br>
+                              
+                                                <label for="Department">Department:</label><br>
+                                                <input type="text" name="Department" id="Department"><br>
+                              
+                                                <!-- <label for="Hobbies">Hobbies:</label><br>
+                                                <input type="text" name="Hobbies" id="Hobbies"><br> -->
+                              
+                                                <label for="Domains">Domains:</label><br>
+                                                <input type="text" name="Domains" id="Domains"><br>
+
+                                                <div class="button_admin2">
+                                                    <button type="button" class="btn btn-outline-dark" onclick="window.location.href='addprofile.html'">Admin Profile</button>
+                                                </div>
+                                            </form>
+                                            
+                                        </div>
+                            </div>
+                       </div>
+
+                       
+                     </div>
+                
+                </div>
+                <div id="13" style="min-height:1000px;background:white;min-width: 500px;">
+                        <!-- <div class="adminprofile_box">
+                                <section>
+                                        <img src="avatar1.jpg" class="avatar1">
+                                </section>
+                           </div> -->
+                    <div class="Form">
+                     <p1 style="font-size: 20px">Add Projects</p1>
+                     <form>
+                            <p>First name:</p>
+                            <input type="text" name="firstname" placeholder="Enter firstname">
+                            <p>Last name:</p>
+                            <input type="text" name="lastname" placeholder="Enter lastname">
+                            <p>Roll No:</p>
+                            <input type="text" name="rollno" placeholder="Enter rollno">
+                            <p>Class:</p>
+                            <input type="text" name="class" placeholder="Enter class">
+                            <p>Year:</p>
+                            <input type="text" name="Year" placeholder="Enter year">
+                            <p>Department:</p>
+                            <input type="text" name="Department" placeholder="Enter Department">
+                            <p>Subject:</p>
+                            <input type="text" name="Subject" placeholder="Enter Subject">
+                            <p>Domain:</p>
+                            <input type="text" name="Domain" placeholder="Enter Domain">
+                            <p>Select File:</p>
+                            <input type="file" name="file" placeholder="Attach file">
+                            <div class="button1">
+                            <button type="button" class="btn btn-outline-dark">Save</button>
+                            </div>
+                     </form>
+                    </div>
+                </div>
+        </div>
+
+  </body>
+</html>

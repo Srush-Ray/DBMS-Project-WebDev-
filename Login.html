@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel ="stylesheet" type="text/css" href="assets/css/design.css">
+    <script type="text/javascript" src="assets/js/valid.js" ></script>
+
+</head>
+  <body>
+     <div class="Sign-box">
+       <img src="avatar1.jpg" class="avatar1">
+       <h1>Sign-in</h1>
+        <form action="/insert.php"  method="POST" name="loginpage" onsubmit="return validations()">
+          <label>Registeration ID</label>
+          <input type="text" name="RegID" placeholder="Enter rollno" required>
+          <label>Password</label>
+          <input type="password" name="Password" placeholder="Enter Password" required>
+          <label>Confirm Password</label>
+          <input type="password" name="Confirm_Password" placeholder="Enter Password" required>
+           <input type="submit" name="SignIn" value="SignIn" onclick="validations">
+         </form>
+     </div>
+
+  </body>
+</html>

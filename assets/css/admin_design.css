@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+  .wrapper .admin{
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    /* background: darkgrey; */
+    padding: 30px 0px;
+    position: fixed;
+  }
+
+  .wrapper .admin h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .wrapper .admin ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .wrapper .admin ul li a{
+    color: #bdb8d7;
+    display: block;
+  }
+
+  .wrapper .admin ul li a .fas{
+    width: 25px;
+  }
+
+  .wrapper .admin ul li:hover{
+    background-color: #594f8d;
+  }
+
+  .wrapper .admin ul li:hover a{
+    color: #fff;
+  }
+
+  .wrapper .admin .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+  .wrapper .admin .social_media a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .sidebar-right ul,li{
+    list-style:none;
+  }
+  .sidebar-right ul{
+    overflow:hidden;
+    padding:3em;
+  }
+  .sidebar-right ul li t{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+  }
+  .sidebar-right ul li{
+    margin:1em;
+    float:left;
+  }
+
+  .sidebar-right{
+    margin-left:15%;
+    align-self: auto;
+    color:black;
+  }
+
+  .sidebar-right ul li h2{
+    font-size:140%;
+    font-weight:bold;
+    padding-bottom:10px;
+  }
+  .sidebar-right ul li p{
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:180%;
+  }
+
+/*********************************** Admin Profile 1st PAGE *********************************/
+
+.adminprofile_box{
+  width: 920px;
+  height: 550px;
+  background: #fff;
+  color: black;
+  top: 50%;
+  left: 55%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+  -moz-box-shadow: 3px 3px 5px #535353;
+  -webkit-box-shadow: 3px 3px 5px #535353;
+  box-shadow: 3px 3px 5px #535353;
+
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px;
+   border-radius: 6px 6px 6px 6px;
+}
+.avatar1{
+  border-radius: 50%;
+  height: 35%;
+  width: 25%;
+  top: 22%;
+  left:8%;
+  position: absolute;
+}
+
+.verticalline{
+  border-left:2px solid black;
+  height: 500px;
+  position: absolute;
+  top: 4%;
+  left: 40%;
+}
+
+.adminprofile-text{
+  position: absolute;
+  left: 50%;
+  align-items: center;
+}
+
+.adminprofile-text input[type="text"]
+ {
+    background-color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    width: 120%;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #ddd;
+    text-emphasis: emphasis empha;
+ }
+
+ .adminprofile-text label{
+   margin: 5px 10px 5px 0;
+   font-weight: bold;
+ }
+
+ .button_admin{
+  left: 30%;
+  top: 70%;
+  position: absolute;
+}
+
+
+/* **********************************  Form Box 3rd Page ************************************ */
+
+   /* .Form{
+    width: 720px;
+    height: 750px;
+    background: rgb(100,100,100,5);
+    background: #fff;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+    -moz-box-shadow: 3px 3px 5px #535353;
+    -webkit-box-shadow: 3px 3px 5px #535353;
+    box-shadow: 3px 3px 5px #535353;
+
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px;
+     border-radius: 6px 6px 6px 6px;
+ }  */
+
+ .Form p{
+     margin: 0;
+     padding: 1%;
+     font-weight: bold;
+ }
+
+ .Form p1{
+    margin: 40%;
+    padding: 0;
+    height: 10%;
+    font-size: 20%;
+    font-weight: normal;
+}
+ .Form header{
+     height: 15%;
+
+ }
+
+ .Form input{
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .Form a{
+
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+ }
+
+ .Form input[type="text"]
+ {
+    border: none;
+    /* border-bottom: 1px solid #ffffff; */
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color:black;
+    font-size: 15x;
+ }
+
+ .button1
+ {
+    left: 45%;
+    position: absolute;
+ }
+
+
+ /********************************  Add ADMIN 2nd PAGE ************************************/
+
+ .split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+ .split left {
+  left: 0;
+  background-color:goldenrod;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col1-text{
+  padding: 8%;
+
+}
+
+.col1-text input[type="text"]
+ {
+    background-color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    width: 50%;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #ddd;
+    text-emphasis: emphasis empha;
+ }
+
+ .col2-text{
+  padding: 8%;
+}
+
+.col2-text input[type="text"],input[type="password"]
+ {
+    background-color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    width: 50%;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #ddd;
+    text-emphasis: emphasis empha;
+ }
+
+.addadmin p{
+  margin: 30;
+  /* position: absolute; */
+  /* left: 40%; */
+  padding:30px 0 20px;
+  text-align: 40%;
+  font-size: 22px;
+
+}
+.addadmin label{
+  font-weight: bold;
+}
+.addadmin verticalline1{
+  border-left:2px solid black;
+  height: 500px;
+  position: absolute;
+  top: 4%;
+  left: 40%;
+}
+
+.addadmin button_admin1{
+  left: 40%;
+  top: 70%;
+  position: absolute;
+}
+
+.addadmin button_admin2{
+  left: 60%;
+  top: 70%;
+  position: absolute;
+}

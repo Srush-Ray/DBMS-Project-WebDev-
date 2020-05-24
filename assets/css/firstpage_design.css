@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* .navbar{
+    height: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+} */
+.h1{
+    text-size-adjust: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+     background: whitesmoke;
+}
+.search-box{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    background:lightsteelblue;
+    height: 40px;
+    border-radius: 40px;
+    padding: none;
+}
+
+.search-btn{
+
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-justify: auto;
+    float: left;
+    padding: 0px;
+    color:black;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+}
+
+/*.split {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+   .left {
+    left: -50;
+    background-color:white;
+  }
+
+  .right {
+    right: 0;
+    background-color:aquamarine;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }   */
+
+  section{
+      width: 70%;
+      float: left;
+      height: 400px;
+      background:white;
+  }
+  .right{
+      width: 30%;
+      float: left;
+      height: fit-content;
+      background:lightsteelblue;
+      border-left: 3px solid white;
+  }
+
+  .main::after{
+      content: "";
+      clear: both;
+      display:table;
+  }
+
+  /* .main *{
+      border-radius: 10px;
+  } */
+
+  .main{
+      margin: 1px 0px;
+  }
+
+  .button1{
+      top: 12%;
+      left: 25%;
+      position: absolute;
+  }
+  .button2{
+    top: 12%;
+    left: 33%;
+    position: absolute;
+}
+  
+
+
